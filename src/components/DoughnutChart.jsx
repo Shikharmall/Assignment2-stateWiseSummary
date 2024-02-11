@@ -140,12 +140,21 @@ const DoughnutChart = ({ randomObjects }) => {
 
   const mainLabels = randomObjects.map((item) => item.name);
 
-  const mainDatas1 = randomObjects[0]?.assetAllocation?.map((item) => item.percentage);
-  const mainDatas2 = randomObjects[1]?.assetAllocation?.map((item) => item.percentage);
-  const mainDatas3 = randomObjects[2]?.assetAllocation?.map((item) => item.percentage);
-  const mainDatas4 = randomObjects[3]?.assetAllocation?.map((item) => item.percentage);
-  const mainDatas5 = randomObjects[4]?.assetAllocation?.map((item) => item.percentage);
-
+  const mainDatas1 = randomObjects[0]?.assetAllocation?.map(
+    (item) => item.percentage
+  );
+  const mainDatas2 = randomObjects[1]?.assetAllocation?.map(
+    (item) => item.percentage
+  );
+  const mainDatas3 = randomObjects[2]?.assetAllocation?.map(
+    (item) => item.percentage
+  );
+  const mainDatas4 = randomObjects[3]?.assetAllocation?.map(
+    (item) => item.percentage
+  );
+  const mainDatas5 = randomObjects[4]?.assetAllocation?.map(
+    (item) => item.percentage
+  );
 
   console.log(mainLabels);
 

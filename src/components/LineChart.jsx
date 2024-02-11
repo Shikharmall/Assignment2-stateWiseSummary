@@ -3,8 +3,13 @@ import { Line } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 
 const LineCart = ({ randomObjects }) => {
-
   const mainLabels = randomObjects.map((item) => item.name);
+
+  const mainDatas1 = randomObjects[0]?.fundPerformance;
+  const mainDatas2 = randomObjects[1]?.fundPerformance;
+  const mainDatas3 = randomObjects[2]?.fundPerformance;
+  const mainDatas4 = randomObjects[3]?.fundPerformance;
+  const mainDatas5 = randomObjects[4]?.fundPerformance;
 
   const year = [2019, 2020, 2021, 2022, 2023];
 
@@ -13,35 +18,35 @@ const LineCart = ({ randomObjects }) => {
     datasets: [
       {
         label: mainLabels[0],
-        data: [10, 20, 15, 25, 18], // Replace with your actual data
+        data: mainDatas1,
         fill: false,
         borderColor: "red",
         borderWidth: 2,
       },
       {
         label: mainLabels[1],
-        data: [10, 20, 15, 65, 18], // Replace with your actual data
+        data: mainDatas2,
         fill: false,
         borderColor: "blue",
         borderWidth: 2,
       },
       {
         label: mainLabels[2],
-        data: [10, 60, 85, 25, 18], // Replace with your actual data
+        data: mainDatas3,
         fill: false,
         borderColor: "green",
         borderWidth: 2,
       },
       {
         label: mainLabels[3],
-        data: [10, 20, 35, 25, 18], // Replace with your actual data
+        data: mainDatas4,
         fill: false,
         borderColor: "yellow",
         borderWidth: 2,
       },
       {
         label: mainLabels[4],
-        data: [10, 20, 35, 85, 18], // Replace with your actual data
+        data: mainDatas5,
         fill: false,
         borderColor: "rgba(75,192,192,1)",
         borderWidth: 2,

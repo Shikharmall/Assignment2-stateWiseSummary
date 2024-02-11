@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
-import RecentSearch from "./pages/RecentSearch";
+import OpenDetails from "./pages/OpenDetails";
 import NoPage from "./pages/NoPage";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/recentsearch" element={<RecentSearch />} />
+      <Route path="/opendetails" element={<OpenDetails />} />
       <Route path="*" element={<NoPage />} />
     </Routes>
   );

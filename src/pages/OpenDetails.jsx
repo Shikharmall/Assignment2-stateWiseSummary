@@ -149,7 +149,7 @@ export default function OpenDetails() {
   return (
     <>
       <Header />
-      <div className="flex w-[100%]">
+      <div className="flex w-[100%]" id = "flexApp">
         <LineChart randomObjects={randomObjects} />
         <DoughnutChart randomObjects={randomObjects} />
       </div>

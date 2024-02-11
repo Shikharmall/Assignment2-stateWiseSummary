@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Line } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 
@@ -55,7 +55,7 @@ const LineCart = ({ randomObjects }) => {
   };
 
   return (
-    <div className="p-3 w-1/2">
+    <div className="p-3 w-1/2" id="flexApp1">
       <h3 style={{ fontFamily: "Fahkwang" }}>Fund Performance</h3>
       <Line data={data} />
     </div>

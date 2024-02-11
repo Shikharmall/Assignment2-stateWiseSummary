@@ -200,7 +200,7 @@ const DoughnutChart = ({ randomObjects }) => {
   };
 
   return (
-    <div className="p-3 w-1/2">
+    <div className="p-3 w-1/2" id="flexApp1">
       <h3 style={{ fontFamily: "Fahkwang" }}>Asset Allocation</h3>
       <Doughnut data={data} />
     </div>

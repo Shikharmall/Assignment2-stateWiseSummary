@@ -19,12 +19,12 @@ export default function Header() {
           >
             Home
           </Link>
-          <Link
+          {/*<Link
             to="/recentsearch"
             className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
           >
             Recent Searches
-          </Link>
+          </Link>*/}
         </div>
       </div>
     </nav>

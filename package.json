@@ -17,6 +17,7 @@
     "react-apexcharts": "^1.4.1",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
+    "react-grid-system": "^8.1.9",
     "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^6.21.3",
     "react-select": "^5.8.0",
